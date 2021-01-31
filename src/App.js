@@ -7,7 +7,7 @@ import Home from './pages/home';
 import NewMovies from './pages/new-movies';
 import Popular from './pages/popular';
 import Search from './pages/search';
-import Movie from './pages/movie';
+import Movie from './pages/movie/movie';
 import Error404 from './pages/error404';
 
 export default function App() {
@@ -18,7 +18,7 @@ export default function App() {
     <Layout>
 
       <Routter>
-        <Header>
+        <Header style={{ zIndex: 1 }}>
           <MenuTop />
         </Header>
 
